@@ -1,0 +1,48 @@
+.container {
+  margin: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.form-control {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-text {
+  flex: 1;
+  margin: 0 30px;
+  font-size: 25px;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.textarea {
+  width: 100%;
+  border: none;
+  margin-top: 50px;
+  font-size: 18px;
+  resize: vertical; /* Allow vertical resizing */
+  margin-top: 50px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue color */
+}
